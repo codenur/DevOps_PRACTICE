@@ -7,10 +7,10 @@ def connect():
     client = AdbClient(host="127.0.0.1", port=5037) 
 
     devices = client.devices()
-
+   
     if len(devices) == 0:
-        
-        print('No devices found')
+        print("Changes")     
+        print('No devices found !')
         
         quit()
 
